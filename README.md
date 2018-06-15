@@ -1,5 +1,5 @@
 # Fingerprint_Lock
-A design of fingerprint lock with 51-MCU and AS608. It can be equipped to mostly doors without any confliction.
+A design of fingerprint lock with 51-MCU and AS608. It can be equipped onto mostly doors without any confliction.
 这是一个基于51单片机（STC89C52）和指纹识别模块（AS608）的指纹锁全套解决方案
 文件（夹）说明：
 1、AS608_datasheet：内含两个PDF文件，介绍AS608模块相关软、硬件信息，其中重要的是AS608模块与单片机的通讯方式；
@@ -9,5 +9,5 @@ A design of fingerprint lock with 51-MCU and AS608. It can be equipped to mostly
 5、manifest：这是制作整个电路系统所需的元件信息。
 
 补充说明：
-1、由于LCD1602液晶耗电较为严重，6800mAh的电池电量仅能使用不到一天，实际使用时，必须保证电池始终处于充电状态。使用电池的目的是为了防止停电后指纹锁无法工作（应急）。若要降低功耗，可考虑将LCD1602背光灯的供电断开，或者使用一个三极管和一个IO口进行控制；
+1、由于LCD1602液晶耗电较为严重，6800mAh的电池电量仅能使用不到一天，实际使用时，必须保证电池始终处于充电状态。使用电池的目的是为了防止停电后指纹锁无法工作（应急）。若要降低功耗，可考虑将LCD1602背光灯的供电断开，或者使用一个三极管和一个IO口进行控制；因为LCD1602液晶显示屏的背光灯是单独供电的，关闭背光灯不会影响其正常工作，且节能效果显著,强烈建议不使用背光灯.
 2、普通电机所能输出端的力矩有限，本系统中采用了减速电机，增大输出力矩，并在机械锁上连接省力杠杆，增加驱动力。两者之间使用绳子软连接。实际应用时可根据机械锁开锁方式及难易程度进行相应调整
