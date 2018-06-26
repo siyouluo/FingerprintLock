@@ -8,7 +8,7 @@ A design of fingerprint lock with 51-MCU and AS608. It can be equipped onto most
 4、schematic：这是用Multisim绘制的原理图（由于Multisim中缺少指纹模块元件，暂不可仿真分析，此处仅供指导电路板的焊接）。如果没有安装Multisim，可直接查看另一个PDF文件；
 5、manifest：这是制作整个电路系统所需的元件信息。
 
-如果你要使用本方案制作一个指纹锁，只需要按一下步骤操作：
+如果你要使用本方案制作一个指纹锁，只需要按以下步骤操作：
 1、基于Board_Layout文件夹内资料，参考schematic原理图焊接电路板，作为整个系统的控制部分；
 2、直接使用stc-isp软件将*.hex文件下载到单片机中（或者你也可以用keil软件打开上面的keil_project项目或者使用源码自行创建项目编译得到*.hex文件）；
 3、将AS608指纹模块连接到单片机相应管脚上，将L298N驱动芯片输出管脚与减速电机相连，减速电机通过绳子牵引门把手开锁；
