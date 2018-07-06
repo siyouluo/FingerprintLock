@@ -1,4 +1,4 @@
-这是一个基于51单片机（STC89C52）和指纹识别模块（AS608）的指纹锁项目的全部软硬件资料
+基于51单片机（STC89C52）和指纹识别模块（AS608）的指纹锁项目的全部软硬件资料
 This is a fingerprint lock project based on 51-MCU and AS608, which can be installed on most doors without any conflict.
 文件（夹）说明：
 1、Board_Layout:内含一个*.rst文件，是电路布局图，需要用lochmaster软件打开。读者可按照该电路图焊接电路板。如果没有安装lochmaster软件，可直接查看另外两个PDF文件；
