@@ -6,8 +6,8 @@ This is a fingerprint lock project based on 51-MCU and AS608, which can be insta
 3、images：这是我首次制作的电路实物图，布局和Board_Layout文件夹内资料并不一致，仅供参考；
 4、keil_project:这是用keil uvision3软件开发的指纹锁软件项目，已压缩成zip格式；
 5、manifest：这是制作整个电路系统所需的元件清单，是用Excel写的*.xlsx格式；
-6、schematic：这是用Multisim绘制的原理图（由于Multisim中缺少指纹模块元件，暂不可仿真分析，此处仅供指导电路板的焊接）。如果没有安装Multisim，可直接查看另一个*.PNG文件；
-7、src:其中包含C语言源文件（fingerprint_lock.c）、源文件备份文件(SourceCode.txt)以及编译好的十六进制文件（hand_print.hex）
+6、schematic：*.ms12文件是用Multisim绘制的原理图（由于Multisim中缺少指纹模块元件，暂不可仿真分析，此处仅供指导电路板的焊接）。如果没有安装Multisim，可直接查看另一个*.PNG文件；*.DSN文件是用Proteus ISIS软件绘制的L298N芯片仿真测试电路，供参考；
+7、src:其中包含C语言源文件（fingerprint_lock.c）、源文件备份文件(SourceCode.txt)以及编译好的十六进制文件（finger_print.hex）
 
 使用说明：
 液晶显示主界面有3个功能：search finger（搜索指纹），add（添加指纹），delete（删除全部指纹），还有一个星号表示当前预选中的功能；
