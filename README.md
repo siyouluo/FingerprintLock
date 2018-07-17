@@ -1,7 +1,7 @@
 基于51单片机（STC89C52）和指纹识别模块（AS608）的指纹锁项目的全部软硬件资料
 This is a fingerprint lock project based on 51-MCU and AS608, which can be installed on most doors without any conflict.
-文件（夹）说明：
-1、Board_Layout:内含一个*.rst文件，是电路布局图，需要用lochmaster软件打开。读者可按照该电路图焊接电路板。如果没有安装lochmaster软件，可直接查看另外两个PDF文件；
+文件（夹）说明：  
+1、Board_Layout:内含一个*.rst文件，是电路布局图，需要用lochmaster软件打开。读者可按照该电路图焊接电路板。如果没有安装lochmaster软件，可直接查看另外两个PDF文件；  
 2、datasheet：内含两个PDF文件和一个文件夹。L298N芯片为电机驱动芯片，由于单片机驱动能力有限，L298N芯片可以增大驱动能力，为减速电机提供足够的电流；STC89C52为宏晶科技公司生产的单片机芯片，本项目中用作主控芯片；AS608datasheet文件夹内有两个PDF文件，介绍AS608模块与单片机的通讯方式；
 3、images：这是我首次制作的电路实物图，布局和Board_Layout文件夹内资料并不一致，仅供参考；
 4、keil_project:这是用keil uvision3软件开发的指纹锁软件项目，已压缩成zip格式；
