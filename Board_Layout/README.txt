@@ -1,2 +1,0 @@
-board layout
-其中L298N芯片使用Multiwatt15封装，安插在洞洞板上时需注意区分管脚
