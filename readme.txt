@@ -13,7 +13,7 @@ This is the second version of a fingerprint lock project based on 51-MCU and AS6
 4、KeilPproject:这是用keil uvision3软件开发的指纹锁软件项目；
 5、Manifest：这是制作整个电路系统所需的元件清单，是用Excel写的*.xlsx格式；
 6、SCH&PCB：这是从AltiumDesignerProject文件夹下copy过来的原理图和PCB图；
-7、使用说明书:其中包含一个框图文件，演示系统使用方式；  
+7、Instruction:其中包含一个框图文件，演示系统使用方式；  
 
 使用说明：
 液晶显示主界面有3个功能：search finger（搜索指纹），add（添加指纹），delete（删除全部指纹），还有一个星号表示当前预选中的功能；
