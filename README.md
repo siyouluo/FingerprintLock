@@ -7,13 +7,13 @@ This is the second version of a fingerprint lock project based on 51-MCU and AS6
 3、V1.0版本使用洞洞板和导线进行设计，不适应批量生产，电路整体美观性也较差，V2.0版本使用Altium Designer进行PCB设计，PCB板生产出来后只需要进行元件的焊接；  
 
 文件（夹）说明：
-1、AltiumDesignerProject：这是Altium Designer软件绘制的电路原理图和PCB图，其中含有一个FPL.pdf文件，可以预览；
-2、Datasheet：内含两个PDF文件和两个文件夹。L298N芯片为电机驱动芯片，由于单片机驱动能力有限，L298N芯片可以增大驱动能力，为减速电机提供足够的电流；STC89C52为宏晶科技公司生产的单片机芯片，本项目中用作主控芯片；AS608文件夹内有两个PDF文件，介绍AS608模块与单片机的通讯方式；AT24C04为AT公司生产的E2PROM芯片，保证数据掉电不丢失；
-3、Images：这是一些实物图展示；
-4、KeilPproject:这是用keil uvision3软件开发的指纹锁软件项目；
-5、Manifest：这是制作整个电路系统所需的元件清单，是用Excel写的*.xlsx格式；
-6、SCH&PCB：这是从AltiumDesignerProject文件夹下copy过来的原理图和PCB图；
-7、使用说明书:其中包含一个框图文件，演示系统使用方式；  
+1、AltiumDesignerProject：这是Altium Designer软件绘制的电路原理图和PCB图，其中含有一个FPL.pdf文件，可以预览；  
+2、Datasheet：内含两个PDF文件和两个文件夹。L298N芯片为电机驱动芯片，由于单片机驱动能力有限，L298N芯片可以增大驱动能力，为减速电机提供足够的电流；STC89C52为宏晶科技公司生产的单片机芯片，本项目中用作主控芯片；AS608文件夹内有两个PDF文件，介绍AS608模块与单片机的通讯方式；AT24C04为AT公司生产的E2PROM芯片，保证数据掉电不丢失；  
+3、Images：这是一些实物图展示；  
+4、KeilPproject:这是用keil uvision3软件开发的指纹锁软件项目；  
+5、Manifest：这是制作整个电路系统所需的元件清单，是用Excel写的*.xlsx格式；  
+6、SCH&PCB：这是从AltiumDesignerProject文件夹下copy过来的原理图和PCB图；  
+7、Instruction:其中包含一个框图文件，演示系统使用方式；  
 
 使用说明：
 液晶显示主界面有3个功能：search finger（搜索指纹），add（添加指纹），delete（删除全部指纹），还有一个星号表示当前预选中的功能；
