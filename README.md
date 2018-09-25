@@ -1,3 +1,4 @@
+#指纹锁 (c)2018 罗嗣友， GPLv3许可证， 详情见https://www.gnu.org/licenses/gpl-3.0.en.html  
 基于51单片机（STC89C52）和指纹识别模块（AS608）的指纹锁项目（V2.0）的全部软硬件资料
 This is the second version of a fingerprint lock project based on 51-MCU and AS608, which can be installed on most doors without any conflict.
 
