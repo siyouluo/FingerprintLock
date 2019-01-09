@@ -28,7 +28,8 @@ This is the second version of a fingerprint lock project based on 51-MCU and AS6
 
 # 使用说明：
 
-    液晶显示主界面有3个功能：search finger（搜索指纹），add（添加指纹），delete（删除全部指纹），还有一个星号表示当前预选中的功能；
+    液晶显示主界面有3个功能：
+    search finger（搜索指纹），add（添加指纹），delete（删除全部指纹），还有一个星号表示当前预选中的功能；
     单片机P2口连接了4个按钮开关：分别为KEY_Mode=P2^3;KEY_DOWN=P2^2;KEY_OK=P2^1;KEY_CANCEL=P2^0;  
     
     1、添加指纹：按KEY_DOWN键，将星号调到“Add”前，按KEY_OK键，屏幕中将显示指纹即将存入的ID号
